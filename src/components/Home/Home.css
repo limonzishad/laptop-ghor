@@ -1,0 +1,21 @@
+.product-container {
+    margin: 50px;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.product-container img {
+    width: 50%;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+
+.product-container p {
+    text-align: justify;
+}
+
+.review-container {
+    text-align: center;
+    margin-bottom: 50px;
+}
