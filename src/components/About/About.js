@@ -5,7 +5,9 @@ import { Card } from "react-bootstrap";
 const About = () => {
     return (
         <Card body className="about">
-            <h1>This is about section.</h1>
+            <h1>ABOUT THE ASSIGNMENT</h1>
+            <hr></hr>
+            <p>This assignment is assigned by programing hero.</p>
         </Card>
     );
 }

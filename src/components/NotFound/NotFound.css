@@ -1,5 +1,11 @@
 .message {
-    margin: 50px 500px;
+    font-family: "Operator Mono";
+    margin: 50px 400px;
     color: red;
     text-align: center;
+}
+
+.message p {
+    color: black;
+    font-size: 18px;
 }

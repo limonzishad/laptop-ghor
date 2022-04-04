@@ -18,10 +18,11 @@ const Home = () => {
             <div className="product-container">
                 <img src="https://www.windowscentral.com/sites/wpcentral.com/files/styles/xlarge_wm_brb/public/field/image/2021/08/hp-pavilion-aero-13-hero1.jpg" alt="laptop.png" />
                 <div className="details">
-                    <h2>YOU NEED A BETTER LAPTOP</h2>
-                    <h3>WE PROVIDE THE BEST ONE</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sunt explicabo aliquid vero sed repellat fugit non deleniti possimus quia, dolorum quisquam nesciunt inventore nostrum, alias quam necessitatibus cupiditate nihil.</p>
-                    <button className="home-btn">DETAILS</button>
+                    <h2 className="title-text-1">YOU NEED A BETTER LAPTOP</h2>
+                    <h3 className="title-text-2">WE WILL PROVIDE YOU THE BEST ONE</h3>
+                    <hr></hr>
+                    <p>HP Envy Ultra Pro Max 13 is recognized as the best Laptop of 2022. It's stylish outlook and light weight is is attracting all potential user of all ages. The laptop has intel i7 12th gen Unlocked processor with 16 GB DDR4 ram.</p>
+                    <button className="home-btn-2">DETAILS</button>
                 </div>
             </div>
             <div className="review-container">

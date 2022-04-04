@@ -1,4 +1,8 @@
 .about {
-    margin: 50px 500px;
+    margin: 50px 400px;
     text-align: center;
+}
+
+.about p {
+    font-size: 18px;
 }
