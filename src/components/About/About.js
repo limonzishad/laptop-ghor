@@ -1,10 +1,12 @@
 import React from "react";
+import './About.css';
+import { Card } from "react-bootstrap";
 
 const About = () => {
     return (
-        <div>
-            <h1>About</h1>
-        </div>
+        <Card body className="about">
+            <h1>This is about section.</h1>
+        </Card>
     );
 }
 
