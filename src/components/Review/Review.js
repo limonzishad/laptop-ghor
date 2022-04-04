@@ -6,7 +6,7 @@ const Review = (props) => {
     const { id, name, review, rating, img } = props.review;
     return (
         <div>
-            <Card>
+            <Card className="component-shadow">
                 <div className="cards-container">
                     <img src={img} alt={name} />
                     <h1>{name}</h1>

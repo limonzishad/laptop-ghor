@@ -20,6 +20,10 @@
     margin-bottom: 50px;
 }
 
+.review-container h2 {
+    margin-bottom: 0;
+}
+
 .home-btn {
     background-color: rgba(140, 47, 140, 0.8);
     color: white;

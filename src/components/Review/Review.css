@@ -17,4 +17,9 @@
 
 .cards-container img {
     width: 20%;
+    border-radius: 50%;
+}
+
+.component-shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
