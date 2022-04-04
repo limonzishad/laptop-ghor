@@ -1,7 +1,13 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import './Home.css';
 
 const Home = () => {
+    let navigate = useNavigate();
+    const changeRouteToReviews = () => {
+        let path = `/reviews`;
+        navigate(path);
+    }
     return (
         <div>
             <div className="product-container">
@@ -10,12 +16,12 @@ const Home = () => {
                     <h2>YOU NEED A BETTER LAPTOP</h2>
                     <h3>WE PROVIDE THE BEST ONE</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis sunt explicabo aliquid vero sed repellat fugit non deleniti possimus quia, dolorum quisquam nesciunt inventore nostrum, alias quam necessitatibus cupiditate nihil.</p>
-                    <button>DETAILS</button>
+                    <button className="home-btn">DETAILS</button>
                 </div>
             </div>
             <div className="review-container">
                 <h2>CUSTOMER REVIEWS</h2>
-                <button>SEE ALL REVIEWS</button>
+                <button onClick={changeRouteToReviews} className="home-btn">SEE ALL REVIEWS</button>
             </div>
         </div>
     );
